@@ -244,10 +244,10 @@ a:hover {
 }
 
 /* default icon color */
-i.fa {
+svg {
   color: #88c6c2;
 }
-.bg-primary i.fa {
+.bg-primary svg {
   color: #fff;
 }
 
