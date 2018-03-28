@@ -1,0 +1,456 @@
+.navbar-brand>img {
+    max-width: 25px;
+  }
+.text-center {
+  text-align: center;
+}
+.navbar-nav {
+  display: inline-block;
+  float: none;
+}
+.bg-primary h2 small {
+  color: #fff;
+}
+.bg-border-left-primary {
+  border-left: solid 25px #88C6C2;
+}
+/*social*/
+.btn-floating {
+  position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 37px;
+    height: 37px;
+    padding: 0;
+    background-color: #b8b8b8;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    transition: .3s;
+    margin: 10px;
+    color: #fff;
+    display: inline-block;
+    line-height: 37px;
+    cursor: pointer;
+    vertical-align: middle;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.05),0 2px 10px 0 rgba(0,0,0,.03);
+}
+.btn-floating.btn-small {
+  height: 47px;
+  width: 47px;
+  line-height: 0;
+}
+.btn-floating.btn-small .fa {
+    font-size: 18px;
+    margin-top: 5px;
+  }
+.btn-floating i {
+    color: #fff;
+    display: inline-block;
+    line-height: 37px;
+  }
+  .btn-floating:hover {
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.08),0 4px 15px 0 rgba(0,0,0,.05);
+    background-color: #c1c1c1;
+}
+  }
+.waves-effect {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 1;
+  }
+  .waves-effect {
+    -webkit-tap-highlight-color: transparent;
+  }
+.bg-gray {
+  background-color: #eee;
+}
+.bg-primary {
+  background-color: #88C6C2;
+}
+/* Main */
+
+/* Helpers */
+.col-center {
+  margin: 0 auto;
+  float: none;
+}
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #8B8B8B;
+}
+.bg-primary h1, .bg-primary h2, .bg-primary h3, .bg-primary h4, .bg-primary h5, .bg-primary h6, .bg-primary p {
+    color: #fff;
+}
+.bg-secondary h1, .bg-secondary h2, .bg-secondary h3, .bg-secondary h4, .bg-secondary h5, .bg-secondary h6, .bg-secondary p {
+    color: #fff;
+}
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+h1.title {
+  font-weight: 300;
+  font-size: 70px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 35px;
+}
+h2.title {
+  font-weight: 300;
+}
+h3,h4 {
+  font-weight: bold;
+}
+
+body, p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #777;
+}
+p.lead {
+  font-size: 22px;
+}
+.caps {
+  letter-spacing: .05em;
+}
+.text-muted {
+  color: #bbb;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 30px;
+  padding: 10px 35px;
+
+}
+.btn-default {
+  border-color: #fff;
+}
+.btn:hover {
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s;
+}
+.bg-primary .btn-default {
+  border-color: #fff;
+  color: rgb(57, 124, 120);
+  background-color: #fff;
+  border: 2px solid rgb(255, 255, 255);
+}
+.btn-default:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(105, 182, 177);
+  border: 2px solid rgb(116, 188, 183);
+}
+.btn-primary {
+    color: #88c6c2;
+    background-color: rgba(255,255,255,0);
+    border-color: #88c6c2;
+}
+.bg-primary .btn-primary {
+  color: rgb(255, 255, 255);
+  background-color: rgba(105, 182, 177, 0);
+  border: 2px solid rgb(255, 255, 255);
+}
+.bg-primary .btn-primary:hover, .bg-primary .btn-default:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.25);
+  border-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+}
+.btn-default-teal {
+  background-color: #88c6c2;
+  color: #fff;
+  border: 2px solid #88c6c2;
+}
+.btn-animated i {
+    -webkit-transition: left 0.2s ease-in-out;
+    -o-transition: left 0.2s ease-in-out;
+    transition: left 0.2s ease-in-out;
+    position: relative;
+    margin-left: 10px;
+    left: 2px;
+}
+.btn-animated.btn-lg:hover i {
+    left: 5px;
+    -webkit-transition: left 0.2s ease-in-out;
+    -o-transition: left 0.2s ease-in-out;
+    transition: left 0.2s ease-in-out;
+}
+
+/* Backgrounds */
+.bg-secondary {
+  background-color: #E78873;
+  color: #fff;
+}
+.floatingcard-bg {
+    box-shadow: -10px 16px 36px 0 rgba(0,0,0,.05),0 2px 10px 0 rgba(0,0,0,.01);
+    background-color: #fff;
+    transition: .5s;
+}
+.floatingcard-bg:hover {
+    box-shadow: -10px 16px 36px 0 rgba(0,0,0,.07),0 2px 10px 0 rgba(0,0,0,.03);
+    top: -2px;
+    transition: .5s;
+}
+
+/* icon sections */
+.icon-row img {
+    max-height: 35px;
+    margin: 30px auto;
+  }
+/* styling */
+.hr-lightgray {
+  border: 4px solid #F3F3F3;
+}
+/* animations */
+.hover-float:hover {
+  position: relative;
+  top: -2px;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  box-shadow: -2px 13px 30px rgba(0,0,0,0.03);
+  border-radius: 6px;
+}
+
+/* media objects */
+.media-left .media-object {
+  color: #dedede;
+  font-weight: bold;
+}
+.media-body {
+  font-size: .8em;
+}
+.media-body .media-heading {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  margin-top: 2px;
+  font-size: 1.3em;
+}
+
+/*images*/
+.img-cover {
+  object-fit: cover;
+  width: 100%;
+  height: 350px;
+}
+
+/* contact form */
+#contact-form {
+    background-color:#F2F7F9;
+    width:465px;
+    padding:20px;
+    margin: 50px auto;
+    border: 6px solid #8FB5C1;
+    -moz-border-radius:15px;
+    -webkit-border-radius:15px;
+    border-radius:15px;
+    position:relative;
+}
+
+#contact-form h1 {
+    font-size:42px;
+}
+
+#contact-form h2 {
+    margin-bottom:15px;
+    font-style:italic;
+    font-weight:normal;
+}
+
+#contact-form input,
+#contact-form select,
+#contact-form textarea,
+#contact-form label {
+    font-size:15px;
+    margin-bottom:2px;
+}
+
+#contact-form input,
+#contact-form select,
+#contact-form textarea {
+    width:450px;
+    border: 1px solid #CEE1E8;
+    margin-bottom:20px;
+    padding:4px;
+}
+
+#contact-form input:focus,
+#contact-form select:focus,
+#contact-form textarea:focus {
+    border: 1px solid #AFCDD8;
+    background-color: #EBF2F4;
+}
+
+#contact-form textarea {
+    height:150px;
+    resize: none;
+}
+
+#contact-form label {
+    display:block;
+}
+
+#contact-form .required {
+    font-weight:bold;
+    color:#F00;
+}
+
+#contact-form #submit-button {
+    width: 100px;
+    background-color:#333;
+    color:#FFF;
+    border:none;
+    display:block;
+    float:right;
+    margin-bottom:0px;
+    margin-right:6px;
+    background-color:#8FB5C1;
+    -moz-border-radius:8px;
+}
+
+#contact-form #submit-button:hover {
+    background-color: #A6CFDD;
+}
+
+#contact-form #submit-button:active {
+    position:relative;
+    top:1px;
+}
+
+#contact-form #loading {
+    width:32px;
+    height:32px;
+    background-image:url(../img/loading.gif);
+    display:block;
+    position:absolute;
+    right:130px;
+    bottom:16px;
+    display:none;
+}
+
+#errors {
+    border:solid 1px #E58E8E;
+    padding:10px;
+    margin:25px 0px;
+    display:block;
+    width:437px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    background:#FFE6E6 url(../img/cancel_48.png) no-repeat 405px center;
+    display:none;
+}
+
+#errors li {
+    padding:2px;
+    list-style:none;
+}
+
+#errors li:before {
+    content: ' - ';
+}
+
+#errors #info {
+    font-weight:bold;
+}
+
+#errors #info:before {
+    content: '';
+}
+
+#success {
+    border:solid 1px #83D186;
+    padding:25px 10px;
+    margin:25px 0px;
+    display:block;
+    width:437px;
+    -webkit-border-radius:8px;
+    -moz-border-radius:8px;
+    border-radius:8px;
+    background:#D3EDD3 url(../img/accepted_48.png) no-repeat 405px center;
+    font-weight:bold;
+    display:none;
+}
+
+#errors.visible, #success.visible {
+    display:block;
+}
+
+#req-field-desc {
+    font-style:italic;
+}
+
+/* Remove box shadow firefox, chrome and opera put around required fields. It looks rubbish. */
+input:required, textarea:required {
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    -o-box-shadow:none;
+    box-shadow:none;
+}
+
+/* Normalize placeholder styles */
+
+/* chrome, safari */
+::-webkit-input-placeholder {
+    color:#CCC;
+    font-style:italic;
+}
+
+/* mozilla */
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color:#CCC;
+    font-style:italic;
+}
+
+/* ie (faux placeholder) */
+input.placeholder-text, textarea.placeholder-text  {
+    color:#CCC;
+    font-style:italic;
+}
+
+/* contact form */
+.contact-form button {
+    display: block;
+}
+.contact-form input {
+    display: block;
+    margin-bottom: 10px;
+}
+form input, form textarea {
+    margin-bottom: 0.5em;
+}
+input, textarea {
+    font-size: 0.8em;
+    font-family: 'proxima-nova-soft', sans-serif;
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 0.9em;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    font-style: normal;
+  }
+  ::-webkit-input-placeholder {
+    font-style: normal;
+  }
+  :-moz-placeholder { /* older Firefox*/
+    font-style: normal;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    font-style: normal;
+  }
+  :-ms-input-placeholder {
+    font-style: normal;
+  }
