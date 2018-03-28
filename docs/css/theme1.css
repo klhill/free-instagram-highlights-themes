@@ -11,6 +11,9 @@
 .bg-primary h2 small {
   color: #fff;
 }
+.bg-primary .navbar-brand , .bg-primary .navbar-brand:hover  {
+    color: #fff;
+  }
 .bg-border-left-primary {
   border-left: solid 25px #88C6C2;
 }
@@ -95,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
   font-weight: bold;
-  font-size: 50px;
+  font-size: 40px;
 }
 h1.title {
   font-weight: 300;
@@ -125,6 +128,22 @@ p.lead {
 }
 .text-muted {
   color: #bbb;
+}
+a {
+    color: #88c6c2;
+    text-decoration: none;
+}
+a:hover {
+  color: #3f9c96;
+  text-decoration: none;
+}
+
+.bg-primary a {
+  color: #fff;
+}
+.bg-primary a:hover {
+  color: #caecea;
+  text-decoration: none;
 }
 
 /* Buttons */
@@ -222,6 +241,14 @@ p.lead {
   transition: 0.2s;
   box-shadow: -2px 13px 30px rgba(0,0,0,0.03);
   border-radius: 6px;
+}
+
+/* default icon color */
+i.fa {
+  color: #88c6c2;
+}
+.bg-primary i.fa {
+  color: #fff;
 }
 
 /* media objects */
@@ -454,3 +481,12 @@ input, textarea {
   :-ms-input-placeholder {
     font-style: normal;
   }
+    .icon-row.downloads img {
+    max-height: 200px;
+  }
+
+@media (max-width: 767px) {
+  .text-sm-center {
+    text-align: center;
+  }
+}
