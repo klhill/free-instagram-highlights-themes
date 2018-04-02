@@ -207,6 +207,10 @@ a:hover {
     transition: left 0.2s ease-in-out;
 }
 
+.bg-secondary .btn {
+  border: 2px solid transparent;
+}
+
 /* Backgrounds */
 .bg-secondary {
   background-color: #E78873;
@@ -490,3 +494,8 @@ input, textarea {
     text-align: center;
   }
 }
+/**MAILCHIMP**/
+#mc_embed_signup{clear:left; width:100%;}
+input:required, textarea:required {
+    color: #000;
+  }
