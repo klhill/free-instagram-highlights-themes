@@ -536,3 +536,8 @@ input:required, textarea:required {
     width: 350px;
     vertical-align: top;
 }
+@media (max-width: 768px) {
+#mc_embed_signup .button {
+  margin-top:15px;
+}
+}
