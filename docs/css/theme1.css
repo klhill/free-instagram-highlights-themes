@@ -495,6 +495,14 @@ input, textarea {
     text-align: center;
   }
 }
+@media (max-width: 768px) {
+  a[download=""] {
+    display: none;
+  }
+  svg.fa-arrow-alt-circle-down {
+    display: none;
+  }
+}
 /**MAILCHIMP**/
 #mc_embed_signup{clear:left; width:100%;}
 input:required, textarea:required {
