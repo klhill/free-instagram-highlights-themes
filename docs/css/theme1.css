@@ -156,7 +156,7 @@ a.theme-link div:hover p{
   color: #caecea;
   text-decoration: none;
 }
- .bg-primary .navbar-nav>li>a {
+.navbar-nav>li>a {
   color: #fff;
 }
 /* mobile navbar menu */
