@@ -618,3 +618,10 @@ input:required, textarea:required {
     width: 360px;
 }
 }
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.bg-primary .navbar-brand {
+    color: #477976;
+}
