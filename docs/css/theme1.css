@@ -267,7 +267,7 @@ a.theme-link div:hover p{
 
 /* Backgrounds */
 .bg-secondary {
-  background-color: #E78873;
+  background-color: #FBA394;
   color: #fff;
 }
 .floatingcard-bg {
@@ -624,4 +624,43 @@ input:required, textarea:required {
 }
 .bg-primary .navbar-brand {
     color: #477976;
+}
+
+/* Footer Nav */
+nav.footer-nav {
+  text-align: center;
+  padding: 25px 25px 15px;
+}
+nav.footer-nav ul {
+  list-style:none;
+  color: white;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'open sans';
+    padding-left: 0;
+}
+
+nav.footer-nav ul li {
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.footer-nav ul li a {
+  color: white;
+}
+
+.footer-nav li a:hover {
+  color: black;
+}
+
+@media (max-width: 720px) {
+  nav.footer-nav ul {
+    line-height: 2em;
+    text-align: left;
+  }
+  nav.footer-nav ul li {
+    display: block;
+    padding:0;
+  }
 }
