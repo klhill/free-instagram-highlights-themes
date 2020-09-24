@@ -653,7 +653,7 @@ nav.footer-nav ul li {
 .footer-nav li a:hover {
   color: black;
 }
-/*mobile*/
+
 @media (max-width: 720px) {
   nav.footer-nav ul {
     line-height: 2em;
